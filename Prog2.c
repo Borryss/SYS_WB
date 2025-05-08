@@ -36,6 +36,7 @@
 #include "libpic30.h"
 #include "adc.h"
 #include "buttons.h"
+#include <stdlib.h>
  
  
 unsigned char read_speed_level(unsigned int adc_value) {
