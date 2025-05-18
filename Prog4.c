@@ -38,7 +38,7 @@ void system_init(void){
 }
  
 void display_start_screen(void) {
-    const char *message = "                      DZIEN DOBRY! REKLAMA : \xB1\xB2\xB3\xB4\xB5\xB6\xB7\xB8\xB3\xB5\xB6\xB1\xB7 !    "; 
+    const char *message = "   SUPER PROMOCJA!  \xB1\xB2\xB3 LCD HD44780 \xB3\xB2\xB1 TYLKO DZIS!  >> www.wmii.uwm.edu.pl << \xB4\xB5\xB6\xB7\xB8 ZOBACZ TERAZ!   ";
     int len = strlen(message);
     char buffer[17]; 
 
