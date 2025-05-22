@@ -67,9 +67,9 @@ void displayTime(unsigned int t1, unsigned int t2) {
 void showLoseMessage(int player) {
     LCD_ClearScreen();
     if (player == 1)
-        LCD_PutString("P1 PRZEGRAŁ CZAS!", 17);
+        LCD_PutString("P1 PRZEGRAL!", 17);
     else
-        LCD_PutString("P2 PRZEGRAŁ CZAS!", 17);
+        LCD_PutString("P2 PRZEGRAL!", 17);
     while(1);  
 }
 
